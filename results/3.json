@@ -1,0 +1,465 @@
+Downloading list of known revisions... 
+Loaded revisions 15734-709770 from /Users/cjamcl/src/chromium/src/tools/.bisect-builds-cache.json
+[670017, 670024, 670028, 670032, 670038, 670041, 670047, 670051, 670053, 670062, 670066, 670071, 670078, 670083, 670088, 670096, 670106, 670121, 670136, 670153, 670168, 670180, 670192, 670205, 670215, 670231, 670248, 670272, 670296, 670310, 670325, 670339, 670349, 670354, 670356, 670360, 670362, 670369, 670373, 670379, 670382, 670383, 670387, 670393, 670398, 670400, 670405, 670414, 670419, 670424, 670425, 670428, 670431, 670435, 670439, 670442, 670446, 670450, 670456, 670462, 670472, 670485, 670496, 670507, 670520, 670537, 670550, 670561, 670581, 670601, 670614, 670630, 670640, 670656, 670674, 670699, 670713, 670723, 670738, 670751, 670759, 670765, 670772, 670776, 670778, 670784, 670789, 670794, 670797, 670801, 670806, 670808, 670812, 670815, 670820, 670834, 670838, 670839, 670844, 670846, 670854, 670860, 670861, 670863, 670871, 670876, 670881, 670888, 670897, 670902, 670910, 670922, 670932, 670949, 670959, 670975, 670987, 671006, 671024, 671032, 671046, 671064, 671083, 671094, 671113, 671134, 671151, 671160, 671165, 671171, 671178, 671180, 671187, 671192, 671194, 671195, 671198, 671201, 671203, 671205, 671211, 671213, 671217, 671233, 671238, 671240, 671241, 671251, 671255, 671259, 671262, 671269, 671274, 671283, 671296, 671300, 671309, 671320, 671334, 671344, 671353, 671369, 671384, 671392, 671398, 671402, 671412, 671413, 671416, 671423, 671431, 671443, 671453, 671467, 671479, 671490, 671496, 671500, 671509, 671512, 671513, 671518, 671520, 671521, 671524, 671525, 671526, 671527, 671529, 671530, 671532, 671533, 671534, 671535, 671536, 671537, 671538, 671539, 671540, 671541, 671542, 671543, 671544, 671545, 671546, 671547, 671548, 671549, 671550, 671551, 671552, 671553, 671554, 671555, 671556, 671557, 671558, 671559, 671560, 671561, 671562, 671563, 671564, 671567, 671568, 671570, 671572, 671574, 671577, 671578, 671579, 671580, 671581, 671582, 671585, 671587, 671589, 671590, 671591, 671593, 671594, 671599, 671602, 671605, 671607, 671612, 671618, 671622, 671628, 671629, 671637, 671642, 671646, 671648, 671653, 671657, 671665, 671669, 671676, 671681, 671684, 671698, 671712, 671721, 671729, 671746, 671755, 671774, 671784, 671797, 671809, 671837, 671841, 671842, 671844, 671891, 671907, 671913, 671924, 671932, 671937, 671943, 671948, 671954, 671961, 671962, 671970, 671974, 671977, 671982, 671991, 671994, 672004, 672010, 672015, 672022, 672024, 672028, 672030, 672034, 672039, 672046, 672047, 672055, 672061, 672067, 672077, 672087, 672088, 672108, 672124, 672136, 672151, 672171, 672186, 672213, 672238, 672257, 672269, 672277, 672291, 672297, 672311, 672320, 672333, 672348, 672356, 672365, 672373, 672377, 672388, 672393, 672401, 672402, 672403, 672406, 672412, 672413, 672418, 672421, 672425, 672426, 672429, 672437, 672449, 672458, 672461, 672467, 672469, 672472, 672476, 672480, 672485, 672486, 672490, 672496, 672503, 672509, 672521, 672529, 672534, 672544, 672560, 672565, 672580, 672588, 672605, 672612, 672623, 672635, 672652, 672673, 672689, 672703, 672714, 672721, 672734, 672739, 672745, 672760, 672763, 672766, 672776, 672781, 672782, 672785, 672787, 672791, 672794, 672801, 672803, 672809, 672816, 672820, 672827, 672835, 672841, 672849, 672853, 672855, 672858, 672860, 672862, 672868, 672872, 672876, 672882, 672891, 672903, 672910, 672923, 672937, 672952, 672967, 672987, 673004, 673007, 673021, 673038, 673055, 673064, 673079, 673085, 673102, 673116, 673129, 673135, 673147, 673159, 673171, 673186, 673197, 673209, 673214, 673225, 673227, 673229, 673233, 673237, 673241, 673244, 673247, 673248, 673250, 673256, 673262, 673267, 673268, 673275, 673282, 673285, 673288, 673289, 673299, 673309, 673313, 673321, 673325, 673332, 673337, 673350, 673354, 673369, 673390, 673405, 673419, 673433, 673444, 673459, 673470, 673489, 673496, 673519, 673525, 673530, 673549, 673554, 673558, 673559, 673561, 673568, 673569, 673572, 673573, 673574, 673576, 673577, 673578, 673579, 673581, 673582, 673583, 673584, 673585, 673586, 673587, 673588, 673589, 673590, 673591, 673593, 673594, 673595, 673596, 673597, 673598, 673599, 673600, 673601, 673602, 673604, 673605, 673606, 673607, 673608, 673609, 673610, 673611, 673612, 673613, 673614, 673615, 673616, 673617, 673618, 673619, 673620, 673621, 673622, 673624, 673627, 673629, 673630, 673631, 673632, 673636, 673637, 673638, 673639, 673641, 673643, 673646, 673648, 673650, 673654, 673656, 673657, 673658, 673659, 673661, 673665, 673671, 673677, 673681, 673683, 673689, 673692, 673696, 673701, 673704, 673707, 673712, 673714, 673717, 673721, 673724, 673733, 673739, 673750, 673756, 673758, 673766, 673781, 673791, 673802, 673812, 673826, 673832, 673849, 673861, 673873, 673890, 673900, 673909, 673919, 673926, 673929, 673934, 673938, 673943, 673947, 673951, 673955, 673958, 673959, 673965, 673968, 673972, 673977, 673982, 673989, 673994, 674001, 674004, 674006, 674009, 674013, 674015, 674018, 674025, 674026, 674032, 674036, 674043, 674058, 674066, 674076, 674088, 674102, 674117, 674138, 674147, 674163, 674186, 674199, 674213, 674224, 674240, 674258, 674265, 674278, 674283, 674297, 674307, 674319, 674327, 674329, 674332, 674334, 674335, 674342, 674347, 674348, 674349, 674353, 674359, 674366, 674370, 674371, 674377, 674378, 674385, 674392, 674395, 674399, 674404, 674412, 674417, 674420, 674426, 674429, 674433, 674442, 674454, 674467, 674478, 674488, 674496, 674506, 674524, 674539, 674557, 674568, 674582, 674602, 674615, 674621, 674634, 674647, 674655, 674663, 674675, 674684, 674689, 674693, 674700, 674706, 674708, 674712, 674717, 674719, 674723, 674726, 674730, 674735, 674740, 674744, 674751, 674755, 674759, 674766, 674772, 674779, 674783, 674788, 674793, 674795, 674799, 674805, 674810, 674815, 674820, 674831, 674842, 674847, 674859, 674860, 674865, 674875, 674878, 674885, 674892, 674895, 674896, 674902, 674907, 674913, 674917, 674921, 674923, 674924, 674926, 674927, 674931, 674933, 674937, 674939, 674941, 674945, 674950, 674954, 674956, 674958, 674960, 674962, 674964, 674967, 674969, 674970, 674972, 674973, 674975, 674980, 674983, 674988, 674990, 674994, 674999, 675003, 675005, 675007, 675009, 675012, 675019, 675026, 675032, 675036, 675042, 675048, 675057, 675058, 675066, 675070, 675074, 675077, 675083, 675086, 675090, 675091, 675092, 675093, 675094, 675095, 675097, 675098, 675100, 675101, 675102, 675104, 675105, 675106, 675107, 675108, 675109, 675110, 675111, 675112, 675113, 675114, 675115, 675116, 675117, 675118, 675119, 675120, 675121, 675122, 675123, 675124, 675125, 675126, 675127, 675128, 675129, 675130, 675131, 675132, 675133, 675134, 675135, 675136, 675137, 675138, 675139, 675140, 675141, 675142, 675143, 675144, 675147, 675148, 675149, 675150, 675151, 675152, 675153, 675154, 675156, 675159, 675160, 675161, 675163, 675166, 675173, 675174, 675178, 675181, 675183, 675184, 675190, 675196, 675203, 675205, 675209, 675210, 675213, 675216, 675218, 675221, 675222, 675229, 675240, 675255, 675274, 675289, 675307, 675333, 675347, 675358, 675365, 675375, 675384, 675391, 675400, 675407, 675428, 675443, 675457, 675476, 675493, 675504, 675513, 675517, 675525, 675530, 675535, 675540, 675542, 675545, 675552, 675558, 675561, 675564, 675570, 675574, 675582, 675587, 675593, 675595, 675605, 675611, 675614, 675623, 675631, 675633, 675639, 675649, 675655, 675669, 675683, 675693, 675717, 675730, 675745, 675758, 675774, 675785, 675800, 675810, 675824, 675832, 675847, 675869, 675889, 675906, 675921, 675927, 675934, 675940, 675948, 675950, 675951, 675952, 675954, 675958, 675960, 675963, 675965, 675966, 675967, 675969, 675973, 675975, 675976, 675979, 675982, 675984, 675985, 675987, 675988, 675990, 675994, 675998, 676000, 676002, 676004, 676009, 676018, 676037, 676050, 676092, 676099, 676109, 676120, 676133, 676147, 676168, 676188, 676206, 676217, 676225, 676241, 676257, 676273, 676280, 676285, 676293, 676296, 676298, 676302, 676305, 676307, 676314, 676325, 676333, 676337, 676348, 676353, 676361, 676372, 676378, 676385, 676392, 676397, 676411, 676426, 676437, 676445, 676457, 676479, 676487]
+Downloading revision 670017...
+
+Trying revision 670017...
+[
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3830.0",
+      "revision": "@9e1fa38fd50c5ab1a1cfc69230446bf247503c99",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3830.0 Safari/537.36",
+      "jsVersion": "7.7.94",
+      "milestone": 77
+    },
+    "timings": [
+      {
+        "startTime": 1513.730202,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 7032.158280000001,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 9472.916831,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 9042.989314,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 19383.774677,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 9052.552405999999,
+        "entryType": "measure"
+      }
+    ],
+    "average": 8375.9
+  }
+]
+
+Bad revision: 670017
+Downloading revision 676487...
+Trying revision 676487...
+[
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3851.0",
+      "revision": "@e78f46a0e99e658842a18701eec3ff88ecee6e5d",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3851.0 Safari/537.36",
+      "jsVersion": "7.7.216",
+      "milestone": 77
+    },
+    "timings": [
+      {
+        "startTime": 1150.58661,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 22.94399499999986,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 2003.171833,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 47.43311299999982,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 2878.245276,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 48.117901000000074,
+        "entryType": "measure"
+      }
+    ],
+    "average": 39.49833633333325
+  }
+]
+
+Good revision: 676487
+Downloading revision 673593...
+Bisecting range [670017 (bad), 676487 (good)], roughly 10 steps left.
+Trying revision 673593...
+[
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3839.0",
+      "revision": "@b7093b1986b99beb26d84dda486be61c00578c28",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3839.0 Safari/537.36",
+      "jsVersion": "7.7.166",
+      "milestone": 77
+    },
+    "timings": [
+      {
+        "startTime": 1265.260273,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 94.10271999999986,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 2358.47775,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 35.79829999999993,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 3268.561188,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 28.40892299999996,
+        "entryType": "measure"
+      }
+    ],
+    "average": 52.769980999999916
+  }
+]
+
+Good revision: 673593
+Downloading revision 671637...
+
+Bisecting range [670017 (bad), 673593 (good)], roughly 9 steps left.
+Trying revision 671637...
+[
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3833.0",
+      "revision": "@dd791eec184a80fbd6c6764cf43cc00dc7bd24b2",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3833.0 Safari/537.36",
+      "jsVersion": "7.7.135",
+      "milestone": 77
+    },
+    "timings": [
+      {
+        "startTime": 1270.912285,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 10023.340189,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 12195.511913,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 10035.714237999999,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 23109.413658,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 3039.358208999998,
+        "entryType": "measure"
+      }
+    ],
+    "average": 7699.470878666666
+  }
+]
+
+Bad revision: 671637
+Downloading revision 672721...
+Bisecting range [671637 (bad), 673593 (good)], roughly 8 steps left.
+Trying revision 672721...
+[
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3836.0",
+      "revision": "@7a2c82c86a9c9d64a9670599e7cb455c9c696d06",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3836.0 Safari/537.36",
+      "jsVersion": "7.7.151",
+      "milestone": 77
+    },
+    "timings": [
+      {
+        "startTime": 6781.816316,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 93.08984799999962,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 7827.028055,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 29.255490000000464,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 8700.328642,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 29.51839099999961,
+        "entryType": "measure"
+      }
+    ],
+    "average": 50.6212429999999
+  }
+]
+
+Good revision: 672721
+Downloading revision 672151...
+Bisecting range [671637 (bad), 672721 (good)], roughly 7 steps left.
+Trying revision 672151...
+[
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3835.0",
+      "revision": "@acd3b400da115c622724eb1a40f90f944999c647",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3835.0 Safari/537.36",
+      "jsVersion": "7.7.146",
+      "milestone": 77
+    },
+    "timings": [
+      {
+        "startTime": 1254.410542,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 1059.1239580000001,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 3235.696849,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 3094.543863,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 7289.543996,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 3059.9034699999993,
+        "entryType": "measure"
+      }
+    ],
+    "average": 2404.5237636666666
+  }
+]
+
+Bad revision: 672151
+Downloading revision 672437...
+Bisecting range [672151 (bad), 672721 (good)], roughly 6 steps left.
+Trying revision 672437...
+[
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3836.0",
+      "revision": "@d413c1df8ee2f5cb872020fe55e03d545ff5a7cf",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3836.0 Safari/537.36",
+      "jsVersion": "7.7.149",
+      "milestone": 77
+    },
+    "timings": [
+      {
+        "startTime": 1289.65549,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 23.331007,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 2151.349454,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 27.941397999999936,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 3013.457451,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 30.836127999999917,
+        "entryType": "measure"
+      }
+    ],
+    "average": 27.36951099999995
+  }
+]
+
+Good revision: 672437
+Downloading revision 672365...
+
+Bisecting range [672151 (bad), 672437 (good)], roughly 5 steps left.
+Trying revision 672365...
+[
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3835.0",
+      "revision": "@e2ff0d3dec21dfd572ac3e6578a6c239ca3c13c7",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3835.0 Safari/537.36",
+      "jsVersion": "7.7.149",
+      "milestone": 77
+    },
+    "timings": [
+      {
+        "startTime": 1220.436537,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 25.124775999999883,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 2176.516709,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 27.63210799999979,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 3047.382565,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 49.25929700000006,
+        "entryType": "measure"
+      }
+    ],
+    "average": 34.00539366666658
+  }
+]
+
+Good revision: 672365
+Downloading revision 672277...
+
+Bisecting range [672151 (bad), 672365 (good)], roughly 4 steps left.
+Trying revision 672277...
+[
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3835.0",
+      "revision": "@c751273131ebc229d5b190a838394bac82eedd1c",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3835.0 Safari/537.36",
+      "jsVersion": "7.7.148",
+      "milestone": 77
+    },
+    "timings": [
+      {
+        "startTime": 1219.625933,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 3082.49564,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5191.702749,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 50.767431000000215,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 6077.137308,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 9039.631502,
+        "entryType": "measure"
+      }
+    ],
+    "average": 4057.631524333334
+  }
+]
+
+Bad revision: 672277
+Downloading revision 672320...
+Bisecting range [672277 (bad), 672365 (good)], roughly 4 steps left.
+Trying revision 672320...
+[
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3835.0",
+      "revision": "@55a602c57a1294f5b16c8340ecc07b1f2d0fb9c1",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3835.0 Safari/537.36",
+      "jsVersion": "7.7.149",
+      "milestone": 77
+    },
+    "timings": [
+      {
+        "startTime": 1180.792449,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 6102.970302,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 8148.995663,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 6040.073885,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 15067.816177,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 4043.9407079999983,
+        "entryType": "measure"
+      }
+    ],
+    "average": 5395.661631666666
+  }
+]
+
+Bad revision: 672320
+Downloading revision 672348...
+Bisecting range [672320 (bad), 672365 (good)], roughly 3 steps left.
+Trying revision 672348...
+[
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3835.0",
+      "revision": "@d00a4064036257e2a9c0d5720a8331bf4edeacc4",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3835.0 Safari/537.36",
+      "jsVersion": "7.7.149",
+      "milestone": 77
+    },
+    "timings": [
+      {
+        "startTime": 1195.689836,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 44.471902,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 2151.099552,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 29.508072000000084,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 3088.717258,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 87.84595899999977,
+        "entryType": "measure"
+      }
+    ],
+    "average": 53.94197766666662
+  }
+]
+
+Good revision: 672348
+Downloading revision 672333...
+
+Bisecting range [672320 (bad), 672348 (good)], roughly 2 steps left.
+Trying revision 672333...
+[
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3835.0",
+      "revision": "@3d64e5d8b732c6ed603bf76005f2b29fbe038fe2",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3835.0 Safari/537.36",
+      "jsVersion": "7.7.149",
+      "milestone": 77
+    },
+    "timings": [
+      {
+        "startTime": 1128.777363,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 2026.560538,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4038.440119,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 5042.9409160000005,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 9951.697099,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 7040.191425999998,
+        "entryType": "measure"
+      }
+    ],
+    "average": 4703.23096
+  }
+]
+
+Bad revision: 672333
+You are probably looking for a change made after 672333 (known bad), but no later than 672348 (first known good).
+CHANGELOG URL:
+  https://chromium.googlesource.com/chromium/src/+log/3d64e5d8b732c6ed603bf76005f2b29fbe038fe2..d00a4064036257e2a9c0d5720a8331bf4edeacc4

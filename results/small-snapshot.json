@@ -1,0 +1,866 @@
+[
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/76.0.3806.0",
+      "revision": "@eadbb890dc391b22000a4e490902ac641755bf8c",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3806.0 Safari/537.36",
+      "jsVersion": "7.6.274",
+      "milestone": 76,
+      "r": 663436
+    },
+    "timings": [
+      {
+        "startTime": 1401.299916,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 25.162821000000122,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 2282.961268,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 29.185363999999936,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 3130.359522,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 27.52679599999965,
+        "entryType": "measure"
+      }
+    ],
+    "average": 27.291660333333237
+  },
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/76.0.3806.0",
+      "revision": "@fb3556703b37bce6999455b6c1c4b6d1c8f8d2e6",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3806.0 Safari/537.36",
+      "jsVersion": "7.6.299",
+      "milestone": 76,
+      "r": 663752
+    },
+    "timings": [
+      {
+        "startTime": 15706.297048,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 53.118625999999495,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 16656.306168,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 28.963723000000755,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 17555.658561,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 28.39064900000085,
+        "entryType": "measure"
+      }
+    ],
+    "average": 36.82433266666703
+  },
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/76.0.3809.0",
+      "revision": "@7c7d0e17c37bc89937f5d2bd6494ba15d2e75f10",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.0 Safari/537.36",
+      "jsVersion": "7.6.303",
+      "milestone": 76,
+      "r": 664740
+    },
+    "timings": [
+      {
+        "startTime": 29423.408185,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 45.64014600000155,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 30452.03061,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 2045.2360049999988,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 33410.795209,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 1047.0321239999976,
+        "entryType": "measure"
+      }
+    ],
+    "average": 1045.9694249999993
+  },
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3812.0",
+      "revision": "@9853957328e01e11f87876135a38a6edc535744e",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3812.0 Safari/537.36",
+      "jsVersion": "7.7.1",
+      "milestone": 77,
+      "r": 665416
+    },
+    "timings": [
+      {
+        "startTime": 47122.054203,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 31.829976000000897,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 51671.193577,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 29.84502700000303,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 56041.934751,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 28.550277000002097,
+        "entryType": "measure"
+      }
+    ],
+    "average": 30.075093333335342
+  },
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3815.0",
+      "revision": "@b76475d4cc6e9ed99072f3cfa1dffe17e237e385",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3815.0 Safari/537.36",
+      "jsVersion": "7.7.14",
+      "milestone": 77,
+      "r": 665921
+    },
+    "timings": [
+      {
+        "startTime": 67447.708088,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 25.499802999998792,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 71707.68428,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 75.67227199999616,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 77891.028713,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 31.25561399999424,
+        "entryType": "measure"
+      }
+    ],
+    "average": 44.14256299999639
+  },
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3817.0",
+      "revision": "@b8f3e2ccc26dd8930a9f729db821508b72cf01cd",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3817.0 Safari/537.36",
+      "jsVersion": "7.7.23",
+      "milestone": 77,
+      "r": 666738
+    },
+    "timings": [
+      {
+        "startTime": 85678.442999,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 25.37181199999759,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 86624.66331,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 31.996595999997226,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 87546.396368,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 28.193505999995978,
+        "entryType": "measure"
+      }
+    ],
+    "average": 28.520637999996932
+  },
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3819.0",
+      "revision": "@ca7b5e91e1535385a745802b1e02d286b04dde1c",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3819.0 Safari/537.36",
+      "jsVersion": "7.7.27",
+      "milestone": 77,
+      "r": 667472
+    },
+    "timings": [
+      {
+        "startTime": 97228.38684,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 4035.7353139999905,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 102179.468447,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 9057.830754999988,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 112135.301665,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 6040.8652269999875,
+        "entryType": "measure"
+      }
+    ],
+    "average": 6378.143765333322
+  },
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3823.0",
+      "revision": "@d280191588134cdf7e90d90fa91160588815fad1",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3823.0 Safari/537.36",
+      "jsVersion": "7.7.27",
+      "milestone": 77,
+      "r": 667937
+    },
+    "timings": [
+      {
+        "startTime": 131108.028879,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 5097.874821000005,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 141591.928491,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 9038.445062000013,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 156671.967504,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 6036.133801999997,
+        "entryType": "measure"
+      }
+    ],
+    "average": 6724.151228333339
+  },
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3825.0",
+      "revision": "@22b4124dd22d7a22f11741a131e1059371bff689",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3825.0 Safari/537.36",
+      "jsVersion": "7.7.64",
+      "milestone": 77,
+      "r": 668799
+    },
+    "timings": [
+      {
+        "startTime": 175223.202308,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 45.041165000002366,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 179989.981348,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 4981.748397999996,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 185890.115846,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 2033.0230319999973,
+        "entryType": "measure"
+      }
+    ],
+    "average": 2353.2708649999986
+  },
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3827.0",
+      "revision": "@afe69611e75214ff27d49cc2f4ff7dbdc2f026ec",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3827.0 Safari/537.36",
+      "jsVersion": "7.7.84",
+      "milestone": 77,
+      "r": 669511
+    },
+    "timings": [
+      {
+        "startTime": 203736.791198,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 1036.0185170000186,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 205714.333425,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 1043.4961210000038,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 207661.628418,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 10040.569359999994,
+        "entryType": "measure"
+      }
+    ],
+    "average": 4040.027999333339
+  },
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3830.0",
+      "revision": "@9e1fa38fd50c5ab1a1cfc69230446bf247503c99",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3830.0 Safari/537.36",
+      "jsVersion": "7.7.94",
+      "milestone": 77,
+      "r": 670017
+    },
+    "timings": [
+      {
+        "startTime": 218817.224178,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 10152.33329499999,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 229847.56371,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 2042.1006410000264,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 232774.962596,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 4039.315658000007,
+        "entryType": "measure"
+      }
+    ],
+    "average": 5411.2498646666745
+  },
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3832.0",
+      "revision": "@a33a5c028ffdca9c3421e1ae4a987836a2fbab4b",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3832.0 Safari/537.36",
+      "jsVersion": "7.7.119",
+      "milestone": 77,
+      "r": 670854
+    },
+    "timings": [
+      {
+        "startTime": 249509.063879,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 7068.973488000018,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 257500.097413,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 9043.82365799998,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 267432.006502,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 47.61388200003421,
+        "entryType": "measure"
+      }
+    ],
+    "average": 5386.8036760000105
+  },
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3833.0",
+      "revision": "@6dbe25bf526ebfca756ee651b9369b9351b71d8e",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3833.0 Safari/537.36",
+      "jsVersion": "7.7.132",
+      "milestone": 77,
+      "r": 671542
+    },
+    "timings": [
+      {
+        "startTime": 282567.337788,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 3968.7910169999814,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 287421.767014,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 6039.516969999997,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 294350.694413,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 4040.722498999967,
+        "entryType": "measure"
+      }
+    ],
+    "average": 4683.010161999981
+  },
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3835.0",
+      "revision": "@8e2c2eacb792f7b50673aed9f8c85510fcf4c5bc",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3835.0 Safari/537.36",
+      "jsVersion": "7.7.141",
+      "milestone": 77,
+      "r": 672039
+    },
+    "timings": [
+      {
+        "startTime": 311234.799762,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 8073.912054000015,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 320219.196642,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 49.01416100002825,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 321117.763337,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 9043.130548999994,
+        "entryType": "measure"
+      }
+    ],
+    "average": 5722.018921333346
+  },
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3837.0",
+      "revision": "@9c7b8b90ebefdf9cf7d8047c82ddc81883daa94f",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3837.0 Safari/537.36",
+      "jsVersion": "7.7.153",
+      "milestone": 77,
+      "r": 672858
+    },
+    "timings": [
+      {
+        "startTime": 353289.054269,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 25.778697000001557,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 354142.826328,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 26.682111000001896,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 355027.177516,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 48.72585899999831,
+        "entryType": "measure"
+      }
+    ],
+    "average": 33.728889000000585
+  },
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3839.0",
+      "revision": "@b7093b1986b99beb26d84dda486be61c00578c28",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3839.0 Safari/537.36",
+      "jsVersion": "7.7.166",
+      "milestone": 77,
+      "r": 673593
+    },
+    "timings": [
+      {
+        "startTime": 373586.008801,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 85.97947799996473,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 374579.578061,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 48.32174800004577,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 375513.568369,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 27.08930600003805,
+        "entryType": "measure"
+      }
+    ],
+    "average": 53.796844000016186
+  },
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3841.0",
+      "revision": "@7c2b3de843cb2109de423a54dafce6f4ca210575",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3841.0 Safari/537.36",
+      "jsVersion": "7.7.171",
+      "milestone": 77,
+      "r": 673989
+    },
+    "timings": [
+      {
+        "startTime": 393397.041845,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 26.36446499999147,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 394277.034723,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 29.729893999989145,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 395175.184285,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 51.76719299994875,
+        "entryType": "measure"
+      }
+    ],
+    "average": 35.95385066664312
+  },
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3844.0",
+      "revision": "@5455e9d080906aeb25534f558fa936eb31f77d24",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3844.0 Safari/537.36",
+      "jsVersion": "7.7.180",
+      "milestone": 77,
+      "r": 674766
+    },
+    "timings": [
+      {
+        "startTime": 414489.879988,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 27.631061000050977,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 415392.914757,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 48.33226900000591,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 416311.878835,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 27.21538700000383,
+        "entryType": "measure"
+      }
+    ],
+    "average": 34.39290566668691
+  },
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3846.0",
+      "revision": "@450e06533e5ec2c5fe3c7418136bb6e893ac4ccb",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3846.0 Safari/537.36",
+      "jsVersion": "7.7.191",
+      "milestone": 77,
+      "r": 675116
+    },
+    "timings": [
+      {
+        "startTime": 433750.35001,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 25.695398000010755,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 434623.37206,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 28.659838999970816,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 435518.128186,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 29.192046000040136,
+        "entryType": "measure"
+      }
+    ],
+    "average": 27.84909433334057
+  },
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3849.0",
+      "revision": "@1493fbf729f571b6d40dbfd47b6af27016122de0",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3849.0 Safari/537.36",
+      "jsVersion": "7.7.205",
+      "milestone": 77,
+      "r": 675611
+    },
+    "timings": [
+      {
+        "startTime": 450935.091902,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 21.19956199999433,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 451858.042956,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 28.145822999998927,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 452746.507503,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 29.06780100002652,
+        "entryType": "measure"
+      }
+    ],
+    "average": 26.137728666673258
+  },
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3851.0",
+      "revision": "@e78f46a0e99e658842a18701eec3ff88ecee6e5d",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3851.0 Safari/537.36",
+      "jsVersion": "7.7.216",
+      "milestone": 77,
+      "r": 676487
+    },
+    "timings": [
+      {
+        "startTime": 453908.940524,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 30.778359000047203,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 454769.039642,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 24.360212000028696,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 455630.679575,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 32.38238199998159,
+        "entryType": "measure"
+      }
+    ],
+    "average": 29.173651000019163
+  },
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3853.0",
+      "revision": "@8d6b45b4fa5a4e3fa8a93f730c935d431e38ac83",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3853.0 Safari/537.36",
+      "jsVersion": "7.7.228",
+      "milestone": 77,
+      "r": 677228
+    },
+    "timings": [
+      {
+        "startTime": 456801.885096,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 25.87215200002538,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 457687.725197,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 24.335691999993287,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 458569.463371,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 52.2933769999654,
+        "entryType": "measure"
+      }
+    ],
+    "average": 34.16707366666136
+  },
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3856.0",
+      "revision": "@f97303c3b30060dfc9d930b2cd54cdf1f4eaf1dd",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3856.0 Safari/537.36",
+      "jsVersion": "7.7.254",
+      "milestone": 77,
+      "r": 678197
+    },
+    "timings": [
+      {
+        "startTime": 459817.039949,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 7131.073843999999,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 467826.103991,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 4043.0116450000205,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 472732.54727,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 2032.9305720000411,
+        "entryType": "measure"
+      }
+    ],
+    "average": 4402.33868700002
+  },
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3858.0",
+      "revision": "@d4b0c4cf9c98253e66876cbcf8647351d49a389e",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3858.0 Safari/537.36",
+      "jsVersion": "7.7.281",
+      "milestone": 77,
+      "r": 679184
+    },
+    "timings": [
+      {
+        "startTime": 493065.784454,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 4843.723285999964,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 498814.643604,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 5041.50502500002,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 504721.092517,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 3037.0665600000066,
+        "entryType": "measure"
+      }
+    ],
+    "average": 4307.431623666664
+  },
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3861.0",
+      "revision": "@c90db40887cd6681e469eb3af1b46a768e5e215c",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3861.0 Safari/537.36",
+      "jsVersion": "7.7.295",
+      "milestone": 77,
+      "r": 679670
+    },
+    "timings": [
+      {
+        "startTime": 515221.966629,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 6042.204393000051,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 522155.508368,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 10040.96231100004,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 533083.617813,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 5041.979227000033,
+        "entryType": "measure"
+      }
+    ],
+    "average": 7041.715310333374
+  },
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3865.0",
+      "revision": "@116c6e0b1774d5725d19e949fade907f4746cdeb",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.0 Safari/537.36",
+      "jsVersion": "7.7.310",
+      "milestone": 77,
+      "r": 680749
+    },
+    "timings": [
+      {
+        "startTime": 547213.670658,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 4032.801197999972,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 552136.425086,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 8047.0028950000415,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 561081.532972,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 6039.532478000037,
+        "entryType": "measure"
+      }
+    ],
+    "average": 6039.778857000017
+  },
+  {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/77.0.3865.0",
+      "revision": "@8b34445dec98e5c2d24a329c4bf28e80abb6ed15",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.0 Safari/537.36",
+      "jsVersion": "7.7.299",
+      "milestone": 77,
+      "r": 681090
+    },
+    "timings": [
+      {
+        "startTime": 568285.688317,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 189.91934899997432,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 569335.642996,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 4040.1206069999607,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 574252.045298,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 7041.72082399996,
+        "entryType": "measure"
+      }
+    ],
+    "average": 3757.2535933332983
+  }
+]

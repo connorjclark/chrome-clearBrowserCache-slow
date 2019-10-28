@@ -1,0 +1,22 @@
+
+  <body>
+    <div id="charts"></div>
+    <script src="https://cdn.plot.ly/plotly-latest.js" charset="utf-8"></script>
+    <script>(function render(data) {
+    window.onload = function () {
+      const plotdata = [
+        {
+          type: 'scatter',
+          y: data.map(d => d.version),
+          x: data.map(d => d.average),
+        }
+      ];
+      const el = document.getElementById('charts').appendChild(document.createElement('div'));
+      Plotly.newPlot(el, plotdata, {height: 1000});
+    }
+  })(
+      [{"version":"Chrome/62.0.3202.0","average":56.29605910000032},{"version":"Chrome/63.0.3230.0","average":60.309619200000085},{"version":"Chrome/64.0.3259.0","average":46.2376073000014},{"version":"Chrome/65.0.3286.0","average":130.46947230000077},{"version":"Chrome/65.0.3310.0","average":31.377557199999863},{"version":"Chrome/66.0.3333.0","average":85.38399119999958},{"version":"Chrome/66.0.3351.0","average":39.08578379999672},{"version":"Chrome/67.0.3375.0","average":31.70694080000103},{"version":"Chrome/68.0.3398.0","average":25.797623000002933},{"version":"Chrome/68.0.3429.0","average":39.59064519999811},{"version":"Chrome/69.0.3453.0","average":30.18962889999675},{"version":"Chrome/69.0.3482.0","average":42.78123689999338},{"version":"Chrome/70.0.3533.0","average":34.63537890000153},{"version":"Chrome/72.0.3590.0","average":28.4143975999963},{"version":"Chrome/73.0.3656.0","average":27.716834200004815},{"version":"Chrome/74.0.3707.0","average":27.973293400008696},{"version":"Chrome/75.0.3757.0","average":38.474866800004385},{"version":"Chrome/76.0.3806.0","average":27.291660333333237},{"version":"Chrome/76.0.3806.0","average":36.82433266666703},{"version":"Chrome/76.0.3806.0","average":31.425252599985107},{"version":"Chrome/76.0.3809.0","average":1045.9694249999993},{"version":"Chrome/77.0.3812.0","average":30.075093333335342},{"version":"Chrome/77.0.3815.0","average":44.14256299999639},{"version":"Chrome/77.0.3817.0","average":28.520637999996932},{"version":"Chrome/77.0.3819.0","average":6378.143765333322},{"version":"Chrome/77.0.3823.0","average":6724.151228333339},{"version":"Chrome/77.0.3825.0","average":2353.2708649999986},{"version":"Chrome/77.0.3827.0","average":4040.027999333339},{"version":"Chrome/77.0.3830.0","average":5411.2498646666745},{"version":"Chrome/77.0.3830.0","average":2657.32372320001},{"version":"Chrome/77.0.3832.0","average":5386.8036760000105},{"version":"Chrome/77.0.3833.0","average":4683.010161999981},{"version":"Chrome/77.0.3835.0","average":5722.018921333346},{"version":"Chrome/77.0.3837.0","average":33.728889000000585},{"version":"Chrome/77.0.3839.0","average":53.796844000016186},{"version":"Chrome/77.0.3841.0","average":35.95385066664312},{"version":"Chrome/77.0.3844.0","average":34.39290566668691},{"version":"Chrome/77.0.3846.0","average":27.84909433334057},{"version":"Chrome/77.0.3849.0","average":26.137728666673258},{"version":"Chrome/77.0.3851.0","average":29.173651000019163},{"version":"Chrome/77.0.3851.0","average":43.543513999995774},{"version":"Chrome/77.0.3853.0","average":34.16707366666136},{"version":"Chrome/77.0.3856.0","average":4402.33868700002},{"version":"Chrome/77.0.3858.0","average":4307.431623666664},{"version":"Chrome/77.0.3861.0","average":7041.715310333374},{"version":"Chrome/77.0.3865.0","average":6039.778857000017},{"version":"Chrome/77.0.3865.0","average":3757.2535933332983},{"version":"Chrome/77.0.3865.0","average":4358.094575399999}],
+      ["revision","average"]
+    );</script>
+  </body>
+  
